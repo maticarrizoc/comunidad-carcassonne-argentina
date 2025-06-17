@@ -1,0 +1,87 @@
+.second-border {
+    border: 2.5px solid #68D1F2;
+    border-radius: 7.5px;
+    width: 240px;
+}
+
+.player-national-team {
+    margin: 2px;
+    padding: 15px 0;
+    border: 2.5px solid #68D1F2;
+    border-radius: 5px;
+    color: #004E89;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.meeple-container {
+    perspective: 1000px;
+    width: 120px;
+    height: 120px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    backface-visibility: hidden;
+    transition: transform 0.6s;
+}
+
+.image.front {
+    width: 80%;
+    height: 80%;
+    transform: rotateY(0deg);
+}
+
+.image.back {
+    transform: rotateY(180deg);
+    background-image: url("/src/assets/tile.png");
+    border-radius: 5px;
+}
+
+.player-national-team:hover .meeple-container .front {
+    transform: rotateY(180deg);
+}
+
+.player-national-team:hover .meeple-container .back {
+    transform: rotateY(360deg);
+}
+
+.text-player-national-team h3 {
+    color: #004E89;
+    font-weight: 700;
+    text-align: center;
+}
+
+.text-player-national-team h4 {
+    color: #004E89;
+    text-align: center;
+}
+
+.text-player-national-team .provincia {
+    padding-bottom: 20px;
+    font-weight: 300;
+}
+
+.text-player-national-team p {
+    color: #004E89;
+    text-align: center;
+    font-size: 12px;
+}
+
+@media (max-width: 1400px) {
+    .second-border {
+        width: 200px;
+    }
+    .meeple-container {
+        width: 100px;
+        height: 100px;
+    }
+}

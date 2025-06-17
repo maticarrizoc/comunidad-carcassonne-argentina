@@ -1,0 +1,101 @@
+.new-date {
+    text-align: end;
+    font-size: 14px;
+    font-weight: 500;
+    color: #8d99ae;
+}
+
+.div-new-image {
+    margin-top: -20px;
+    max-height: 270px;
+    overflow: hidden;
+    position: relative;
+}
+
+.new-image {
+    width: 100%;
+    object-fit: cover;
+}
+
+.back-button {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.back-button:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.parragraphs p {
+    text-align: justify;
+    padding: 10px 0;
+}
+
+.div-new-button {
+    display: flex;
+    justify-content: center;
+}
+
+.new-button {
+    background: #004E89;
+    color: #F8FBF8;
+    max-width: 200px;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.new-button:hover {
+    color: #F8FBF8;
+}
+
+.share-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.share-buttons button {
+    max-height: 32px;
+}
+
+.parragraph-duel p {
+    font-style: italic;
+    font-weight: 600;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2px 0px;
+}
+
+.parragraph-image {
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width:835px) {
+    .parragraph-image {
+        max-width: 100%;
+    }
+
+    .parragraph-image img {
+        max-width: 100%;
+    }
+}
+
+@media (max-width:600px) {
+    .new-date {
+        font-size: 12px;
+    }
+}

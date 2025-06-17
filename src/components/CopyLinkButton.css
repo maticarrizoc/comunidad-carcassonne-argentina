@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+.copy-button {
+    border: none;
+    padding: 5px;
+    margin: 0;
+    min-width: 32px; 
+    height: 32px;
+    background-color: #004E89;
+    color: #F8FBF8;
+    border-radius: 50%;
+    font-family: "Roboto", sans-serif;;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.copy-button i {
+    color: #F8FBF8;
+    font-weight: 800;
+}
+.copy-button i::before {
+    style: none;
+}

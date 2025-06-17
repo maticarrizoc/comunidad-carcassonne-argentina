@@ -1,0 +1,58 @@
+.community-card {
+    width: 120px;
+}
+
+.community-card a {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px
+}
+
+.community-card-img {
+    width: 100%;
+}
+
+.community-card h3 {
+    font-size: 20px;
+    line-height: 22px;
+    padding: 2.5px 5px;
+}
+
+.community-card a:hover img {
+    margin: 0;
+    padding: 0;
+}
+
+.community-card a:hover h3 {
+    margin: 0;
+    padding: 2.5px 5px;
+    background: #004E89;
+    color: #F8FBF8;
+    border-radius: 5px;
+}
+
+@media (max-width: 1400px) {
+    .community-card {
+        width: 100px;
+    }
+
+    .community-card h3 {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+}
+
+@media (max-width: 600px) {
+    .community-card {
+        width: 80px;
+    }
+
+    .community-card h3 {
+        font-size: 14px;
+        line-height: 16px;
+    }
+}

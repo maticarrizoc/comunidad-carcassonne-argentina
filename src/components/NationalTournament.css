@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+.national-tournament {
+    display: flex;
+}
+
+.paragrphs {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.table-national-tournament {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #004E89;
+    border-radius: 5px;
+    color: #004E89;
+}
+
+.table-national-tournament th,
+.table-national-tournament td {
+    padding: 7.5px 10px;
+    text-align: left;
+}
+
+.table-national-tournament th {
+    background-color: #004E89;
+    color: #F8FBF8;
+}
+
+.table-national-tournament td a {
+    color: #004E89;
+}
+
+.table-national-tournament tr:nth-child(even) {
+    background-color: #caf0f8;
+}
+
+.past-date {
+    text-decoration: line-through;
+    color: #8d99ae;
+}
+
+.tabs-content {
+    width: 100%;
+    color: #293241;
+}
+
+.national-tournament .tabs-content-1,
+.national-tournament .tabs-content-2,
+.national-tournament .tabs-content-3,
+.national-tournament .tabs-content-4 {
+    font-size: 20px;
+    line-height: 24px;
+    
+}
+
+.national-tournament .tabs-content-1 ul,
+.national-tournament .tabs-content-2 ul,
+.national-tournament .tabs-content-3 ul {
+    display: list-item;
+}
+
+.national-tournament .tabs-content-1 li,
+.national-tournament .tabs-content-2 li,
+.national-tournament .tabs-content-3 li {
+    list-style: disc;
+    padding-bottom: 5px;
+    font-family: "Roboto", sans-serif !important;
+}
+
+.national-tournament .tabs-content-4 p {
+    padding-bottom: 5px;
+}
+
+@media (max-width: 1400px) {
+
+    .national-tournament .tabs-content-1,
+    .national-tournament .tabs-content-2,
+    .national-tournament .tabs-content-3,
+    .national-tournament .tabs-content-4 {
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+
+@media (max-width: 992px) {
+    .table-national-tournament {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 600px) {
+    .table-national-tournament {
+        font-size: 12px;
+    }
+
+    .table-national-tournament th,
+    .table-national-tournament td {
+        padding: 0 2px;
+        text-align: left;
+    }
+
+    .table-national-tournament td a,.table-national-tournament td span {
+        display: inline-block;
+        max-width: 60px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .tabs-national-tournament .tabs-content .tabs-content-1,  .tabs-national-tournament .tabs-content .tabs-content-2,  .tabs-national-tournament .tabs-content .tabs-content-3 p,   .tabs-national-tournament .tabs-content .tabs-content-3 li, .tabs-national-tournament .tabs-content .tabs-content-4 p{
+        font-size: 13px;
+    }
+}

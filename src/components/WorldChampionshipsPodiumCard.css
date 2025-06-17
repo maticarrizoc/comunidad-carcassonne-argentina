@@ -1,0 +1,34 @@
+.world-championships-podium-card {
+    max-width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.world-championships-podium {
+    color: #004E89;
+    background: #F8FBF8;
+    border: 2px solid #004E89;
+    width: 350px;
+    /* font-weight: 500*/
+}
+
+.world-championships-podium h3 {
+    background: #004E89;
+    color: #F8FBF8;
+}
+.world-championships-podium-table {
+    width: 100%;
+}
+.world-championships-podium-table th, .world-championships-podium-table td {
+    text-align: left;
+    padding-left: 10px;
+}
+
+
+@media (max-width: 992px) {
+    .world-championships-podium-card  {
+        max-width: 100%;
+    }
+}

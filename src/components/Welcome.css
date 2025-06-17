@@ -1,0 +1,33 @@
+.welcome {
+    background: #F8FBF8;
+}
+
+.welcome-text-img {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.welcome-text {
+    color: #293241;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.welcome-text p{
+    margin-bottom: 20px;
+}
+
+.welcome-img {
+    max-width: 370px;
+}
+
+@media (max-width: 1150px) {
+    .welcome-text-img {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+}

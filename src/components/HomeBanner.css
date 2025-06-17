@@ -1,0 +1,15 @@
+.home-banner {
+    height: 70vh;
+    background-image: url("/src/assets/background.png");
+    background-size: cover;
+    background-position: center;
+}
+
+@media (max-width: 600px) {
+    .home-banner {
+        height: 50vh;
+        background-image: url("/src/assets/background.png");
+        background-size: cover;
+        background-position: center;
+    }
+  }

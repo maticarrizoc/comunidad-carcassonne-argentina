@@ -1,0 +1,15 @@
+.national-league {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.national-league h2 a {
+    color: #004E89;
+}
+
+.escudo-liga {
+    max-width: 150px;
+
+}
